@@ -1,18 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="UseSwitchCompatOrMaterialXml">
 
-    <TextView
+    <EditText
+        android:id="@+id/main_firstEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:ems="10"
+        android:hint="Enter first digits"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/main_secondEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:ems="10"
+        android:hint="Enter first digits"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:ems="10"
+        android:hint="Press me"
+        android:textColorHint="@color/teal_200" />
+
+
+
+    <ToggleButton
+        android:id="@+id/main_toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/main_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        tools:text="Result" />
+
+
+</LinearLayout>

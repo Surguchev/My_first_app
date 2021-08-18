@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My_first_app</string>
+    <string name="enter_first_digit">Enter first digit</string>
 </resources>
