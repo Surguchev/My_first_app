@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    tools:context=".FirstHomeworkClass"
+    tools:ignore="UseSwitchCompatOrMaterialXml">
+
+    <EditText
+        android:id="@+id/edittext_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter text" />
+
+    <EditText
+        android:id="@+id/edittext_textPersonalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter your name " />
+
+    <EditText
+        android:id="@+id/edittext_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Enter your phone" />
+
+    <EditText
+        android:id="@+id/edittext_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter your number" />
+
+    <EditText
+        android:id="@+id/edittext_textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter password" />
+
+    <EditText
+        android:id="@+id/edittext_textEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter you email" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="80dp"
+        android:text="Show Previous"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/teal_200"  />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@color/teal_200" />
+
+
+</LinearLayout>
