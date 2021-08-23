@@ -22,5 +22,6 @@ public class FirstHomeworkClass extends AppCompatActivity {
     }
 
 //    Когда запускаю FirstHomeworkClass то выполняется переход на прошлый экран, к когда запускаю весь app, то нет. В чем проблема ?
+
 }
 
